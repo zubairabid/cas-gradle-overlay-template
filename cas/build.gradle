@@ -43,6 +43,10 @@ repositories {
 
 dependencies {
     compile "org.apereo.cas:cas-server-webapp-tomcat:${project.'cas.version'}@war"
+
+    compile "org.apereo.cas:cas-server-support-ldap:${project.'cas.version'}"
+    compile "org.apereo.cas:cas-server-support-json-service-registry:${project.'cas.version'}"
+
     if (!project.hasProperty('bootiful')) {
         // Other dependencies may be listed here...
     } else {
