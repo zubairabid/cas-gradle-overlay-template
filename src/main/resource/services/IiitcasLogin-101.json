@@ -1,0 +1,9 @@
+{
+  "@class" : "org.apereo.cas.services.RegexRegisteredService",
+  "serviceId" : "^https://dino.example.com",
+  "name" : "IIIT Cas Login",
+  "id" : 101,
+  "description" : "IIIT Cas Login Page.",
+  "evaluationOrder" : 9999,
+  "theme" : "iiitcas"
+}
